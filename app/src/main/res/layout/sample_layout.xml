@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="#2E615B"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:clipToPadding="false">
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/iv_imageid"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/realmadrid"
+        android:scaleType="centerCrop"
+        android:contentDescription="Image"
+        android:layout_marginEnd="10dp"
+        android:elevation="2dp"
+        />
+
+    <!-- Text Section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description goes here. Add a longer description to see how it aligns."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/darker_gray"
+            android:lineSpacingExtra="2dp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string-array name="Football_clubs">
+    <item>Real Madrid</item>
+    <item> Manchester United</item>
+
+    <item>Barcelone</item>
+
+    <item>Chelsea</item>
+    <item> Liverpool</item>
+
+
+</string-array>
+
+
+
+<string-array name="club_descriptions">
+<item>Real Madrid is the biggest club in the world.</item>
+
+<item>Manchester United is known as the Red Devils.</item>
+
+<item>Barcelona is famous for its tiki-taka playing style.</item>
+
+
+<item>Chelsea is based in London and known as the Blues.</item>
+<item>Liverpool is known for its passionate fans and Anfield.</item>
+
+
+</string-array>
+
+</resources>
